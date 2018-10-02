@@ -37,8 +37,9 @@ def import_data_from_zd_api():
         customer = data["organization_id"]
         channel = "support-api"
         highlights = ""
+        created_at = data["created_at"]
 
-        insertdata = [id, customer,channel,details,highlights,problem,tags]
+        insertdata = [id, customer,channel,details,highlights,problem,tags,created_at]
         db.insert("TicketDetails", insertdata)
 
     print("Data has been written to TicketDetails")
