@@ -6,7 +6,7 @@ This repository does the following:
 3. Also, houses the NLP client that decodes the underlying message and stores it in the Sentiment table. 
 
 
-##Steps to run:
+## Steps to run:
 #### Run the NLP server:
 
 1. Make sure python3 and pip3 are installed
